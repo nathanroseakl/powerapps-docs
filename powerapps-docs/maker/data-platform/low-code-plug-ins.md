@@ -118,6 +118,7 @@ Once the solution import is completed, the status is set to **Enabled** next to 
    - For example, you can calculate the sum of two integers. Create two input parameters, X and Y, both type integer, and one output parameter, `Z`, of type string. You could use the following formula: `{Z:  X + Y }`
    
    > [!TIP]
+   > If Output variables are part of your instant plugin they must be 'set' as part of the PowerFx plugin formula e.g. {outPutVariable: 'PowerFx Formula'}
    > Note the intellisense in the **Formula** box. Underlined red is invalid. Squiggly yellow means your logic might be affected by delegation limitations. Avoid delegation issues by using [delegable functions]( /power-apps/maker/canvas-apps/delegation-overview#delegable-functions).
    :::image type="content" source="media/low-code-plugin2.png" alt-text="Instance low-code plug-in using Power Fx to derive a sum value with two integers":::
 1. Select **Next** to review the details.
